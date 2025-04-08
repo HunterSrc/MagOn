@@ -64,6 +64,63 @@ Tool di gestione magazzino
 9. **Fine**
    - Conclusione del processo.
 
+
+
+
+
+### Dettaglio del Punto 4: Calcolo Prezzi
+
+1. **Inizio Calcolo Prezzi**
+   - Avvio del processo di calcolo dei costi.
+
+2. **Calcolo del Numero di Camion Necessari**
+   - **Input:** Totale delle dimensioni della bolla di carico.
+   - **Algoritmo:**
+     - Dividere il totale delle dimensioni della bolla di carico per la portata standard di un camion.
+     - **Output:** Numero di camion necessari.
+   - **Costo Camion:** Calcolare il costo totale dei camion coinvolti.
+
+3. **Calcolo Costo dei Materiali**
+   - **Input:** Prezzo unitario di ciascun pezzo.
+   - **Algoritmo:**
+     - Moltiplicare il prezzo unitario per la quantità di ciascun pezzo.
+     - **Output:** Costo totale dei materiali.
+
+4. **Calcolo Costo di Montaggio e Messa in Sicurezza**
+   - **Input:** Costo standard di montaggio e messa in sicurezza per pezzo.
+   - **Algoritmo:**
+     - Moltiplicare il costo standard per la quantità di pezzi.
+     - **Nota:** Il costo standard può essere modificato manualmente dall'utente.
+     - **Output:** Costo totale di montaggio e messa in sicurezza.
+
+5. **Calcolo del Carico Elettrico (se applicabile)**
+   - **Input:** Materiali di tipo elettrico.
+   - **Algoritmo:**
+     - Sommare il carico massimo di corrente necessario per tutti i materiali elettrici.
+     - **Output:** Totale del carico elettrico necessario.
+
+6. **Calcolo del Costo Totale**
+   - **Algoritmo:**
+     - Sommare il costo dei camion, il costo dei materiali e il costo di montaggio e messa in sicurezza.
+     - **Output:** Costo totale del progetto.
+
+7. **Verifica e Conferma**
+   - L'utente verifica il calcolo dei costi.
+   - **Decisione:** Costi corretti?
+     - **Sì:** Procedere.
+     - **No:** Tornare ai passaggi precedenti per correggere.
+
+8. **Fine Calcolo Prezzi**
+   - Conclusione del processo di calcolo dei prezzi.
+
+
+
+
+
+
+
+
+
 ### Flusso di Inserimento Manuale di un Nuovo Elemento a Magazzino
 
 1. **Inizio**
