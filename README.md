@@ -32,7 +32,7 @@ Tool di gestione magazzino
 #### 7. **Conclusioni**
    - **Prossimi Passi:** Azioni successive per avviare il progetto.
 
-### Diagramma di Flusso
+### Diagramma di Flusso Preventivatore
 
 1. **Inizio**
    - Avvio del processo di gestione del magazzino.
@@ -64,3 +64,45 @@ Tool di gestione magazzino
 9. **Fine**
    - Conclusione del processo.
 
+### Flusso di Inserimento Manuale di un Nuovo Elemento a Magazzino
+
+1. **Inizio**
+   - Avvio del processo di inserimento manuale di un nuovo elemento.
+
+2. **Accesso al Sistema**
+   - L'utente accede al sistema con le credenziali appropriate.
+
+3. **Navigazione alla Sezione Magazzino**
+   - L'utente naviga alla sezione dedicata alla gestione del magazzino.
+
+4. **Selezione Opzione "Aggiungi Nuovo Elemento"**
+   - L'utente seleziona l'opzione per aggiungere un nuovo elemento.
+
+5. **Inserimento Dati Tecnici**
+   - **Dimensioni:** Inserimento delle dimensioni dell'elemento (lunghezza, larghezza, altezza).
+   - **Pesi:** Inserimento del peso dell'elemento.
+   - **Modalità di Uso:** Descrizione delle modalità di utilizzo dell'elemento.
+
+6. **Inserimento Dipendenze**
+   - Specificare eventuali dipendenze da altri elementi (ad esempio, componenti che devono essere utilizzati insieme).
+
+7. **Inserimento Codice a Barre**
+   - Scansione o inserimento manuale del codice a barre, se disponibile.
+
+8. **Verifica e Conferma Dati**
+   - L'utente verifica che tutti i dati inseriti siano corretti.
+   - **Decisione:** Dati corretti?
+     - **Sì:** Procedere.
+     - **No:** Tornare al passo 5 per correggere.
+
+9. **Salvataggio nel Sistema**
+   - I dati dell'elemento vengono salvati nel database del magazzino.
+
+10. **Aggiornamento Disponibilità Magazzino**
+    - Aggiornamento delle quantità disponibili nel sistema.
+
+11. **Generazione Report di Aggiunta**
+    - Creazione di un report che documenta l'aggiunta del nuovo elemento.
+
+12. **Fine**
+    - Conclusione del processo di inserimento.
